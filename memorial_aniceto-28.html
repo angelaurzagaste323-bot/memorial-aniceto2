@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memorial de Aniceto</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #f3eee8;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+    }
+    .memorial {
+      max-width: 700px;
+      margin: auto;
+    }
+    header, section {
+      background: white;
+      margin: 18px 0;
+      padding: 25px;
+      border-radius: 22px;
+      box-shadow: 0 4px 15px rgba(0,0,0,.10);
+    }
+    h1 { font-size: 30px; margin-bottom: 10px; }
+    h2 { font-size: 28px; margin: 5px 0; }
+    h3 { font-size: 22px; }
+    p { font-size: 17px; line-height: 1.7; }
+    .foto-principal {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 15px rgba(0,0,0,.25);
+      margin-top: 15px;
+    }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .galeria img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+    iframe {
+      max-width: 100%;
+      border: 0;
+      border-radius: 15px;
+    }
+    .frase {
+      font-style: italic;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="memorial">
+
+    <header>
+      <h1>En memoria de una vida inolvidable</h1>
+      <h2>Aniceto</h2>
+      <p>1950 - 2024</p>
+
+      <img
+        class="foto-principal"
+        src="https://i.ibb.co/DfdVJm1C/FB-IMG-1791934708135.jpg"
+        alt="Retrato de Aniceto">
+    </header>
+
+    <section>
+      <h3>Su historia</h3>
+      <p>
+        Aniceto fue una persona muy querida por su familia.
+        Durante su vida compartió muchos momentos especiales
+        con sus seres queridos y dejó hermosos recuerdos
+        en quienes tuvieron la dicha de conocerlo.
+      </p>
+    </section>
+
+    <section>
+      <h3>Fotografías</h3>
+      <div class="galeria">
+        <img
+          src="https://i.ibb.co/DfdVJm1C/FB-IMG-1791934708135.jpg"
+          alt="Fotografía de Aniceto">
+        <img
+          src="https://placehold.co/300x300"
+          alt="Segundo recuerdo de Aniceto">
+        <img
+          src="https://placehold.co/300x300"
+          alt="Tercer recuerdo de Aniceto">
+      </div>
+    </section>
+
+    <section>
+      <h3>Vídeos</h3>
+      <iframe
+        src="https://drive.google.com/file/d/17lvucy32DkK7tct16Eu-0QDcjyPuwZYZ/preview"
+        width="560"
+        height="315"
+        allow="autoplay">
+      </iframe>
+      <p class="frase">Un recuerdo que permanece para siempre.</p>
+    </section>
+
+    <section>
+      <h3>Dedicatorias</h3>
+      <p>
+        Aquí sus familiares y seres queridos podrán dejar
+        mensajes y recuerdos especiales.
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
